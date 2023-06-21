@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@vue/cli-plugin-babel": "4.1.1",
-    "vue": "2.6.14",
+    "vue": "2.7.14",
     "vuetify": "2.6.4"
   },
   "devDependencies": {
@@ -17,15 +17,17 @@
     "@vue/cli-service": "4.1.1",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.0.1",
-    "vue-template-compiler": "^2.6.11"
+    "eslint-plugin-vue": "^6.0.1"
   },
   "eslintConfig": {
     "root": true,
     "env": {
       "node": true
     },
-    "extends": ["plugin:vue/essential", "eslint:recommended"],
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
     "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
@@ -36,7 +38,16 @@
       "autoprefixer": {}
     }
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
-  "keywords": ["vue", "vuejs", "vuetify", "restapi"],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vuetify",
+    "restapi"
+  ],
   "description": "Travel Form - VUE, API"
 }
